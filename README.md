@@ -1,7 +1,5 @@
-# ZhyCom
+# Android 公用类库
 
-# Android公用类库
-
-#使用方法
+使用方法
 
 implementation 'com.github.yumeyang:ZhyCom:1.1.1'

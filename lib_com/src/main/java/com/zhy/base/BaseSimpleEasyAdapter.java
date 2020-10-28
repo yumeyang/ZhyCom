@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.zhy.ZRecycleEasyAdapter;
+import com.zhy.RecyclerEasyAdapter;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -20,7 +20,7 @@ import java.util.List;
  * yhz on 2020/8/21
  * BaseSimpleEasyAdapter 单布局使用(getItemViewType()只有一种的时候使用)
  */
-public abstract class BaseSimpleEasyAdapter<T, VH extends RecyclerView.ViewHolder> extends ZRecycleEasyAdapter {
+public abstract class BaseSimpleEasyAdapter<T, VH extends RecyclerView.ViewHolder> extends RecyclerEasyAdapter {
 
     protected ArrayList<T> mList = new ArrayList<T>();
 

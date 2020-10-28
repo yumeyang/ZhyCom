@@ -12,7 +12,7 @@ import java.util.List;
  * Created by yhz on 2020/9/4
  */
 
-public abstract class ZRecycleEasyAdapter<VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> implements View.OnClickListener, View.OnLongClickListener {
+public abstract class RecyclerEasyAdapter<VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> implements View.OnClickListener, View.OnLongClickListener {
     private OnItemClickListener onItemClickListener;
     private OnItemLongClickListener onItemLongClickListener;
     private OnItemSingleSelectListener onItemSingleSelectListener;
